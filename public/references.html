@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About & Sources | Student Atlas</title>
+  <meta name="description" content="Why Student Atlas exists, how the Zeus guide works, how we protect student privacy, and the official sources behind every opportunity.">
+  <meta name="theme-color" content="#0e9f6e">
+  <link rel="icon" type="image/png" href="/image/icon.png">
+  <link rel="stylesheet" href="/css/app.css">
+  <script src="/js/theme-init.js"></script>
+  <script src="/vendor/lucide/lucide.min.js" defer></script>
+  <script type="module" src="/js/pages/about.js"></script>
+</head>
+<body>
+  <main id="main" tabindex="-1">
+    <div class="container section-tight prose">
+      <span class="eyebrow">About</span>
+      <h1>Opportunity shouldn't depend on who you know.</h1>
+      <p class="lead muted">Many of the best programs for high schoolers are free or even pay students, yet countless students never hear about them. Student Atlas brings them together in one place and pairs them with Zeus, a built-in pathway guide that helps every student find a path, whether or not they have access to a college advisor.</p>
+
+      <h2 id="how">How Student Atlas works</h2>
+      <ul>
+        <li><strong>A curated directory.</strong> <span id="count-text">Hundreds of</span> opportunities across seven interest areas, each linked to its official website and tagged with grades, cost, format, and typical deadline.</li>
+        <li><strong>Explainable matching.</strong> Your Pathway profile is scored against every opportunity, and each card tells you <em>why</em> it fits, or what might make you ineligible.</li>
+        <li><strong>Zeus, your pathway guide.</strong> Zeus is a predictive assistant built into Student Atlas. It reads your question, picks out what you're looking for (interest area, grade, cost, online or in person, timing), searches the directory, and ranks results with your profile. It remembers the conversation, so follow-ups like "only free ones" or "tell me about the second one" just work.</li>
+        <li><strong>Community suggestions.</strong> Anyone can suggest a resource. Suggestions open as a GitHub issue and are reviewed by a person before anything is added.</li>
+      </ul>
+
+      <h2 id="zeus">How Zeus works</h2>
+      <ul>
+        <li><strong>No AI service, no API key.</strong> Zeus runs entirely in your browser using a ranking engine (BM25 keyword search with typo tolerance) combined with your match scores and a library of counseling advice.</li>
+        <li><strong>It only recommends real programs</strong> from the directory, and loosens filters out loud when nothing matches exactly.</li>
+        <li><strong>It predicts what you're typing</strong> and suggests next questions after every answer.</li>
+        <li>Program details change every year, so always confirm dates, costs, and eligibility on the official site.</li>
+        <li>If you ever feel unsafe or overwhelmed, talk to a trusted adult. In the U.S. you can call or text <strong>988</strong> any time.</li>
+      </ul>
+
+      <h2 id="privacy">Privacy &amp; security</h2>
+      <ul>
+        <li><strong>Anonymous accounts.</strong> Starting the Pathway Wizard gives you a random username (like CosmicZeus42) and a sign-in code. There's no email, password, or real name in your account. Your profile, saved list, tracker, My Story, Zeus chats, and College Lab work are saved under that username so you can use them on any device. Download, clear, or delete everything anytime from <a href="/profile.html#account">My Pathway</a>.</li>
+        <li><strong>Log Out clears the computer.</strong> Logging out ends your session and wipes everything Student Atlas saved in that browser, so the next person on a shared computer starts fresh. Accounts you stop using are deleted automatically after about 13 months.</li>
+        <li><strong>School rooms.</strong> If you join a teacher's room, you type your real name, and your browser encrypts it so only your teacher's key can read it. Your teacher can see your profile, My Story, milestones, saved opportunities, and application statuses. They never see your Zeus or mentor chats, essays, private notes, or exact family finances, and they see your Overcoming obstacles answer only if you choose to share it. The rest of your progress is stored on our servers under your username, so it is still student information your school's policies cover.</li>
+        <li><strong>Zeus runs in your browser.</strong> Your questions are not sent to any AI company. If you're signed in, your chat is saved to your account so you can pick up where you left off.</li>
+        <li><strong>Family finances are optional and stay private.</strong> If you choose to share a household income range, household size, or whether your family gets assistance, it is saved with your profile and used only to point out scholarships and programs with income limits. We never ask for exact income, Social Security numbers, or tax documents.</li>
+        <li><strong>You decide what to send.</strong> Sending an opportunity or a list uses your own email, messages, or share menu. The link only names the opportunities, never your profile, notes, or finances.</li>
+        <li><strong>College Lab is your choice.</strong> College Lab works on your device by default. If AI feedback is available and you turn it on, the essay, transcript text, or question you submit (with the stats you entered) is sent to Claude, an AI model made by Anthropic. We don't store or log it. You can turn it off or delete your College Lab data anytime under Privacy &amp; AI.</li>
+        <li><strong>Reviews are public and anonymous.</strong> A review contains only what you type. Reviews can't include emails, phone numbers, links, or social handles, and we never show who wrote one. To prevent spam we keep a scrambled (hashed) version of your IP address, which can't be turned back into the original.</li>
+        <li><strong>Hardened by default.</strong> The site is static with a strict Content Security Policy and secure headers. The only server code is the reviews service, anonymous accounts and school rooms, and College Lab's optional AI feedback, which validate everything they receive.</li>
+        <li><strong>No ads or trackers.</strong> We don't use third-party analytics or sell data.</li>
+      </ul>
+
+      <h2 id="accessibility">Accessibility</h2>
+      <p>Student Atlas aims to meet the <strong>Web Content Accessibility Guidelines (WCAG) 2.1, Level AA</strong>, the standard referenced by the Americans with Disabilities Act (ADA) Title II rule and Section 508 of the Rehabilitation Act. Here is what that looks like in practice:</p>
+      <ul>
+        <li><strong>Keyboard and screen readers.</strong> Every feature works without a mouse, focus is always visible, menus and dialogs close with Escape, and pages use landmarks, headings, and labels that screen readers announce.</li>
+        <li><strong>Display settings.</strong> Use the <i data-lucide="accessibility"></i> button in the header to adjust text size, switch themes, turn on high contrast, use a readable font with extra spacing, swap to a color-blind friendly palette, reduce motion, or have the page read aloud. Your browser's own zoom (up to 400%), text spacing, and Windows High Contrast also work.</li>
+        <li><strong>Phones and tablets.</strong> Pages reflow to a single column down to 320 pixels wide with no sideways scrolling, and buttons are large enough to tap.</li>
+        <li><strong>Color and motion.</strong> Text meets AA contrast in light and dark themes, color is never the only way information is shown, and nothing moves or advances on its own.</li>
+      </ul>
+      <p><strong>Feedback.</strong> If something is hard to use with your device or assistive technology, please <a href="https://github.com/SalehAmrouni/student-atlas/issues/new?labels=accessibility&amp;title=Accessibility%3A%20" target="_blank" rel="noopener noreferrer">report an accessibility issue<span class="visually-hidden"> (opens in a new tab)</span></a> and tell us the page, what you were trying to do, and the browser or assistive technology you use. We treat accessibility problems as bugs.</p>
+
+      <h2 id="built-with">Built with</h2>
+      <ul>
+        <li>HTML, CSS, and modern JavaScript (no front-end framework)</li>
+        <li><a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">Node.js<span class="visually-hidden"> (opens in a new tab)</span></a> and <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer">Express<span class="visually-hidden"> (opens in a new tab)</span></a> (MIT License)</li>
+        <li><a href="https://zod.dev" target="_blank" rel="noopener noreferrer">Zod<span class="visually-hidden"> (opens in a new tab)</span></a> for data validation (MIT License)</li>
+        <li><a href="https://lucide.dev" target="_blank" rel="noopener noreferrer">Lucide<span class="visually-hidden"> (opens in a new tab)</span></a> icons (ISC License)</li>
+      </ul>
+
+      <h2 id="sources">Sources</h2>
+      <p class="muted">Every opportunity links to the organization that runs it. Information was compiled from these official websites; details are summarized and may change.</p>
+      <div id="sources-list"><p class="muted">Loading sources…</p></div>
+    </div>
+  </main>
+</body>
+</html>
